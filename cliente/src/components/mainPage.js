@@ -82,7 +82,7 @@ export default function MainPage() {
         const formData = new FormData()
         formData.append("frame", blob, "frame.jpg")
         axios
-            .post("http://localhost:5000/api/sendData", formData)
+            .post("https://wastesolidbackend.onrender.com/api/sendData", formData)
             .then((response) => {
                 setResponse(response.data)
             })
