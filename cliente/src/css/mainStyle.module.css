@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 50px;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: space-between;
+    background: red;
+    padding: 25px;
+}
+
+.imageContainer video, canvas{
+    width: 45%;
+}
